@@ -1,6 +1,6 @@
 # CGQC_addons
 
-**v1.2**
+##v1.2
 - Ace RHS Compat All-in-One
 - Advanced Rapelling
 - Advanced Urban Rapelling

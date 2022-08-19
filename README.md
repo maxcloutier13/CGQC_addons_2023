@@ -1,6 +1,18 @@
 # CGQC_addons
 
-## v1.2
+## v1.3
+
+### Added:
+- MRH_Sattelite CGQC Fix
+- HMD - RHS (Cloutier fix)
+- Swimfaster
+- Ladder tweaks
+
+## Removed
+- Horror mod
+- DNI_ZeusFPSMonitor (- Client's FPS display for Zeus)
+
+### Contiens
 - Ace RHS Compat All-in-One
 - Advanced Rapelling
 - Advanced Urban Rapelling
@@ -9,7 +21,6 @@
 - BG21 Slaughter Assets
 - BCombat
 - Bullets Hit
-- Client's FPS display for Zeus
 - Ctab Devastator edition
 - Disable 3den Mission preview shortcut
 - DUI SquadRadar
@@ -18,12 +29,12 @@
 - Enhanced movement reworked
 - Grad Civilians
 - HMD
-- HMD - RHS
-- Horror mod
+- HMD - RHS (Cloutier Fix)
 - Immersion cigs
 - JSRS Soundmod - RHS Aio Mod Pack Sound Support
+- Ladder tweaks
 - LAMBS_Danger.fsm
-- MRH Satellite
+- MRH Satellite (CGQC)
 - Multiple drones in inventory
 - Ragdoll physics +
 - RE: CUP Terrains
@@ -36,9 +47,12 @@
 - Simplex Support Services
 - Splendid smoke Rework
 - Spyder addons
+- Swim faster
 - TurretEnhanced
 - UAV Keybinds
 - ZEN add
 - Zeus enhanced
 - Zeus enhanced - ACE3 Compatibility rework
 - Zeus Keybinds
+
+

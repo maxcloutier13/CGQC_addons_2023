@@ -4,6 +4,16 @@
 
 Added:
 MRH_Sattelite CGQC Fixes edition
+=======
+### Added:
+- MRH_Sattelite CGQC Fix
+- HMD - RHS (Cloutier fix)
+- Swimfaster
+- Ladder tweaks
+
+## Removed
+- Horror mod
+- DNI_ZeusFPSMonitor (- Client's FPS display for Zeus)
 
 ### Contiens
 - Ace RHS Compat All-in-One
@@ -22,10 +32,10 @@ MRH_Sattelite CGQC Fixes edition
 - Enhanced movement reworked
 - Grad Civilians
 - HMD
-- HMD - RHS
-- Horror mod
+- HMD - RHS (Cloutier Fix)
 - Immersion cigs
 - JSRS Soundmod - RHS Aio Mod Pack Sound Support
+- Ladder tweaks
 - LAMBS_Danger.fsm
 - MRH Satellite (CGQC)
 - Multiple drones in inventory
@@ -40,12 +50,10 @@ MRH_Sattelite CGQC Fixes edition
 - Simplex Support Services
 - Splendid smoke Rework
 - Spyder addons
+- Swim faster
 - TurretEnhanced
 - UAV Keybinds
 - ZEN add
 - Zeus enhanced
 - Zeus enhanced - ACE3 Compatibility rework
 - Zeus Keybinds
-
-## Removed
-DNI_ZeusFPSMonitor (- Client's FPS display for Zeus)

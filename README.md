@@ -2,6 +2,9 @@
 
 ## v1.3
 
+Added:
+MRH_Sattelite CGQC Fixes edition
+=======
 ### Added:
 - MRH_Sattelite CGQC Fix
 - HMD - RHS (Cloutier fix)
@@ -54,5 +57,3 @@
 - Zeus enhanced
 - Zeus enhanced - ACE3 Compatibility rework
 - Zeus Keybinds
-
-

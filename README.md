@@ -1,6 +1,11 @@
 # CGQC_addons
 
-**v1.2**
+## v1.3
+
+Added:
+MRH_Sattelite CGQC Fixes edition
+
+### Contiens
 - Ace RHS Compat All-in-One
 - Advanced Rapelling
 - Advanced Urban Rapelling
@@ -9,7 +14,6 @@
 - BG21 Slaughter Assets
 - BCombat
 - Bullets Hit
-- Client's FPS display for Zeus
 - Ctab Devastator edition
 - Disable 3den Mission preview shortcut
 - DUI SquadRadar
@@ -23,7 +27,7 @@
 - Immersion cigs
 - JSRS Soundmod - RHS Aio Mod Pack Sound Support
 - LAMBS_Danger.fsm
-- MRH Satellite
+- MRH Satellite (CGQC)
 - Multiple drones in inventory
 - Ragdoll physics +
 - RE: CUP Terrains
@@ -42,3 +46,6 @@
 - Zeus enhanced
 - Zeus enhanced - ACE3 Compatibility rework
 - Zeus Keybinds
+
+## Removed
+DNI_ZeusFPSMonitor (- Client's FPS display for Zeus)

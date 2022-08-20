@@ -1,12 +1,9 @@
 # CGQC_addons
+## v1.3.2
 
-## v1.3.1
+### Fix:
+HMD added to cgqc
 
-Fix:
-Wrong ctab version
-
-Added:
-MRH_Sattelite CGQC Fixes edition
 =======
 ### Added:
 - MRH_Sattelite CGQC Fix

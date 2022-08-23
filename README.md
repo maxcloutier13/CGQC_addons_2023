@@ -2,17 +2,17 @@
 ## v1.3.5
 
 1.3.5
-Tactical position ready
-Limited gun movement
-Alternative running
-Ride where you look
-Ambient arsenal animations
+- Tactical position ready
+- Limited gun movement
+- Alternative running
+- Ride where you look
+- Ambient arsenal animations
 
 1.3.4
-Ladder weaks + swim faster
+- Ladder weaks + swim faster
 
 1.3.3
-Custom default settings for HMD CGQC-style
+- Custom default settings for HMD CGQC-style
 
 ### Fix:
 HMD added to cgqc

@@ -1,6 +1,8 @@
 # CGQC_addons
-## v1.3.6
+## v1.3.7
 
+1.3.7
+- Remove AlternativeRunning + Tactical position read. Bring back in next version instead.
 1.3.6
 - Remove ambient arsenal animations. Ça gosse.
 

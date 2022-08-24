@@ -1,7 +1,16 @@
 # CGQC_addons
-## v1.3.7
+## v1.3.6.1
+## v1.3.7b
 
-1.3.7
+1.3.7b
+- Tactical position ready
+- Alternative Running
+- Ace armor adjuster
+- RHS alternative mags
+- Sling load rigging
+- TGP Slew cockpint
+
+1.3.6.1
 - Remove AlternativeRunning + Tactical position read. Bring back in next version instead.
 1.3.6
 - Remove ambient arsenal animations. Ça gosse.

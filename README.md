@@ -1,5 +1,8 @@
 # CGQC_addons
-## v1.3.5
+## v1.3.6
+
+1.3.6
+- Remove ambient arsenal animations. Ça gosse.
 
 1.3.5
 - Tactical position ready

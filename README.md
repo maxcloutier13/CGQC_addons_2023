@@ -2,6 +2,8 @@
 ## v1.3.6.1
 ## v1.3.7b
 
+Bleh. Check release notes ;o)
+
 1.3.7b
 - Tactical position ready
 - Alternative Running

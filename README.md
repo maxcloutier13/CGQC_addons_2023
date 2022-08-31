@@ -60,6 +60,7 @@ HMD added to cgqc
 - Enhanced movement
 - Enhanced movement reworked
 - Grad Civilians
+- Grad Sling helmet
 - HMD
 - HMD - RHS (Cloutier Fix)
 - Immersion cigs

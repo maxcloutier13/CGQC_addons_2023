@@ -1,5 +1,19 @@
 # CGQC_addons
 
+## Added:
+- Enhanced GPS
+- Enhanced map (ace version)
+- WBK Headlamps
+- Cinematic flares
+- WBK Footsteps
+
+## Updated:
+- Sigma training props
+- Ace Armor Adjuster
+
+## Removed:
+- Tactical position ready
+
 ## Added recently:
 - MRH_Sattelite CGQC Fix
 - HMD - RHS (Cloutier fix)
@@ -11,9 +25,6 @@
 - Ride where you look
 - Ladder weaks
 - swim faster
-
-## Removed
-- Tactical position ready
 
 ## Contiens
 - Ace RHS Compat All-in-One

@@ -3,7 +3,6 @@
 ## Added recently:
 - MRH_Sattelite CGQC Fix
 - HMD - RHS (Cloutier fix)
-- Tactical position ready
 - Alternative Running
 - Ace armor adjuster
 - RHS alternative mags
@@ -12,6 +11,9 @@
 - Ride where you look
 - Ladder weaks
 - swim faster
+
+## Removed
+- Tactical position ready
 
 ## Contiens
 - Ace RHS Compat All-in-One

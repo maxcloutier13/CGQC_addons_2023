@@ -1,6 +1,9 @@
 # CGQC_addons
 
 ## Added:
+- Skeet IR
+- Designator Makers/Grid (CGQC)
+
 - Enhanced GPS
 - Enhanced map (ace version)
 - WBK Headlamps

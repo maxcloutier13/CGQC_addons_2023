@@ -2,8 +2,9 @@
 
 ## Added:
 - Skeet IR
+- SPS BlackHornet
 - Designator Makers/Grid (CGQC)
-
+-----------------------------------
 - Enhanced GPS
 - Enhanced map (ace version)
 - WBK Headlamps

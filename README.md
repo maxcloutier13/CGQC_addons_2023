@@ -4,6 +4,7 @@
 - Skeet IR
 - SPS BlackHornet
 - Designator Makers/Grid (CGQC)
+- Mk12
 -----------------------------------
 - Enhanced GPS
 - Enhanced map (ace version)

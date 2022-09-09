@@ -50,6 +50,7 @@
 - Grad Sling helmet
 - HMD
 - HMD - RHS (Cloutier Fix)
+- Horror_mod
 - Immersion cigs
 - JSRS Soundmod - RHS Aio Mod Pack Sound Support
 - Ladder tweaks

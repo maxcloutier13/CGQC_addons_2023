@@ -2,6 +2,7 @@
 
 ## Update
 Ace Compats
+Sigma's training
 
 ## Added:
 - Skeet IR

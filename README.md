@@ -5,6 +5,7 @@ Ace Compats
 Sigma's training
 
 ## Added:
+- Ace3 Medical Bag
 - Skeet IR
 - SPS BlackHornet
 - Designator Makers/Grid (CGQC)

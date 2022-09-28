@@ -1,9 +1,9 @@
 # CGQC_addons
 
 ## Update
-- Ace Compats
+- Ace Compats (AGAIN!)
 - Sigma's training
-- Zen compat
+- Zen compat (AGAIN!)
 
 ## Added:
 - Ace3 Medical Bag

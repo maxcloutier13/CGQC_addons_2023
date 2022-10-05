@@ -6,6 +6,7 @@
 - Zen compat (AGAIN!)
 
 ## Added:
+- Drone Info
 - Ace3 Medical Bag
 - Skeet IR
 - SPS BlackHornet

@@ -7,6 +7,10 @@
 
 ## Added:
 - Drone Info
+- Ace painkillers
+- Armbands
+- Oriki's mission items
+- USP Gear NVG + Misc
 - Ace3 Medical Bag
 - Skeet IR
 - SPS BlackHornet

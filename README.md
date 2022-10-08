@@ -1,5 +1,11 @@
 # CGQC_addons
 
+## Added:
+- BettIR Legacy
+- Jason's GPNVG's
+- Tier1/bettIR compat
+- Jason/bettIR compat
+
 ## Removed
 - USP Gear NVG + Misc
 

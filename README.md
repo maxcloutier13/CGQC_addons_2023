@@ -1,5 +1,8 @@
 # CGQC_addons
 
+## Removed
+- USP Gear NVG + Misc
+
 ## Update
 - Ace Compats (AGAIN!)
 - Sigma's training
@@ -10,7 +13,6 @@
 - Ace painkillers
 - Armbands
 - Oriki's mission items
-- USP Gear NVG + Misc
 - Ace3 Medical Bag
 - Skeet IR
 - SPS BlackHornet

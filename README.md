@@ -1,5 +1,8 @@
 # CGQC_addons
 
+## Update 221009
+- Grad civilian
+
 ## Added:
 - BettIR Legacy
 - Jason's GPNVG's

@@ -1,5 +1,8 @@
 # CGQC_addons
 
+## Update 221010
+- Enhanced movement reworked
+
 ## Update 221009
 - Grad civilian
 

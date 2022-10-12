@@ -1,5 +1,8 @@
 # CGQC_addons
 
+## Added 221012
+- Vehicle unflipping
+
 ## Update 221010
 - Enhanced movement reworked
 

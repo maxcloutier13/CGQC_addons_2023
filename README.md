@@ -1,5 +1,8 @@
 # CGQC_addons
 
+## Update 221016
+- SkeetIR
+
 ## Added 221012
 - Vehicle unflipping
 

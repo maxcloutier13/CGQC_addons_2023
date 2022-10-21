@@ -1,5 +1,10 @@
 # CGQC_addons
 
+## Added 221021
+- Whiplash nam poses
+- Whiplash static animations
+
+
 ## Added 221020
 - Vehicle medical
 - White phosphor

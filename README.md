@@ -1,8 +1,9 @@
 # CGQC_addons
 
-## Added 221025
+## Added 221028
 - m224 60mm one-man mortar
 - 6x6 ATV
+- More aircraft display
 
 ## Added 221020
 - Vehicle medical

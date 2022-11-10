@@ -1,5 +1,11 @@
 # CGQC_addons
 
+## Added 221110
+- JRA M320 LRR enhanced
+
+## Removed 221110
+- MRH Satellite
+
 ## Added 221028
 - m224 60mm one-man mortar
 - 6x6 ATV

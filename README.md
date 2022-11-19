@@ -1,5 +1,11 @@
 # CGQC_addons
 
+## Added 221118
+- Animated Recoil Coefficient Changer
+
+## Updated 22118
+- SkeetIR
+
 ## Added 221110
 - JRA M320 LRR enhanced
 

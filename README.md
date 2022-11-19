@@ -1,5 +1,8 @@
 # CGQC_addons
 
+## Updated 22119
+- Deployable darter (CGQC edition)
+
 ## Added 221118
 - Animated Recoil Coefficient Changer
 

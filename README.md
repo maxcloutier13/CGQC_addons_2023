@@ -1,5 +1,8 @@
 # CGQC_addons
 
+## Removed 221120
+- bCombat (bugs)
+
 ## Updated 22119
 - Deployable darter (CGQC edition)
 

@@ -8,6 +8,10 @@
 
 ## Added 221118
 - Animated Recoil Coefficient Changer
+- Simple Suppress
+- Tactical Ready (modified)
+- Grenades in Hatches (tweaked)
+
 
 ## Updated 22118
 - SkeetIR

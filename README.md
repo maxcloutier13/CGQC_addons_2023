@@ -1,5 +1,8 @@
 # CGQC_addons
 
+## Removed 221122
+- Grenades in Hatches (tweaked) (Fucked with the littlebirds for some reason)
+
 ## Removed 221120
 - bCombat (bugs)
 

@@ -1,5 +1,8 @@
 # CGQC_addons
 
+## Added 221125
+- Grad ranger beads
+
 ## Removed 221122
 - Grenades in Hatches (tweaked) (Fucked with the littlebirds for some reason)
 

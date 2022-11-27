@@ -1,4 +1,10 @@
 # CGQC_addons
+## Added 221127
+- Improved Craters
+- Training mags+acc
+
+## Updated 221127
+- Zeus Additions
 
 ## Added 221125
 - Grad ranger beads

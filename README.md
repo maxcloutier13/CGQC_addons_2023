@@ -1,4 +1,12 @@
 # CGQC_addons
+
+## Added 221130
+- Exocet inspectWeapon
+- Sebs briefing table
+- Drongo's simple factions
+- Simple map sharing
+- RR immersive map
+
 ## Added 221127
 - Improved Craters
 - Training mags+acc

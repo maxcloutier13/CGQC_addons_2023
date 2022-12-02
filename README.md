@@ -1,5 +1,8 @@
 # CGQC_addons
 
+## Fix 221201
+- Tactical Ready off by default
+
 ## Added 221130
 - Exocet inspectWeapon
 - Sebs briefing table

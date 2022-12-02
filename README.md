@@ -1,7 +1,8 @@
 # CGQC_addons
 
 ## Fix 221201
-- Tactical Ready off by default
+- Tactical Ready off modded (off default)
+
 
 ## Added 221130
 - Exocet inspectWeapon

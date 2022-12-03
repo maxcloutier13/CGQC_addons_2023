@@ -1,5 +1,8 @@
 # CGQC_addons
 
+## Removed 221202
+- AWM - Ça gossait dans les loadout switch
+
 ## Fix 221201
 - Tactical Ready off modded (off default)
 

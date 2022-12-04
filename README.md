@@ -1,5 +1,12 @@
 # CGQC_addons
 
+## Added 221203
+- cf_bai AI update
+- O%T Expansion
+
+## Updated 221203
+- Ace Armore adjuster (armor treshold)
+
 ## Removed 221202
 - AWM - Ça gossait dans les loadout switch
 

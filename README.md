@@ -1,5 +1,10 @@
 # CGQC_addons
 
+## Added 221204
+- Advanced equipment
+- Deformer
+- AWR - Advanced Wound Reaction
+
 ## Added 221203
 - cf_bai AI update
 - O%T Expansion

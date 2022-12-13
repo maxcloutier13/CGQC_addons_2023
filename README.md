@@ -1,5 +1,9 @@
 # CGQC_addons
 
+## Updated 221213
+- Grad Civilians
+- Ace Armor Adjuster
+
 ## Added 221204
 - Advanced equipment
 - Deformer

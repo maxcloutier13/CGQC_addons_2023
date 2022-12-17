@@ -2,6 +2,7 @@
 
 ## Removed 221216
 - Exocet inspectWeapon
+- Basic map sharing
 
 ## Updated 221213
 - Grad Civilians

@@ -1,5 +1,8 @@
 # CGQC_addons
 
+## Removed 221216
+- Exocet inspectWeapon
+
 ## Updated 221213
 - Grad Civilians
 - Ace Armor Adjuster

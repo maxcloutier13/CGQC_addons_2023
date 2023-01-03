@@ -1,5 +1,13 @@
 # CGQC_addons
 
+## Added 230103
+- TSP Animate
+- LAXeman's Environment Ducking
+- Anti Wall glitch Fix
+
+## Removed 230103
+- Tactical Ready
+
 ## Removed 221216
 - Exocet inspectWeapon
 - Basic map sharing

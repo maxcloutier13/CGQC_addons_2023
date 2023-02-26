@@ -1,5 +1,13 @@
 # CGQC_addons
 
+## Removed 230226
+- Bullet hits
+
+## Updated 230226
+- Animated Recoil coefficient changer
+- Advanced Equipment
+- AWR - Advanced Wound Reaction
+
 ## Removed 230104
 - Anti Wall glitch Fix
 

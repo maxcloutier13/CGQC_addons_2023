@@ -1,5 +1,6 @@
 # CGQC_addons
-
+## Removed 230302
+- Removed AWR
 ## Added 230302
 - CHVD
 

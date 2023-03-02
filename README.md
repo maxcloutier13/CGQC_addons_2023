@@ -1,5 +1,8 @@
 # CGQC_addons
 
+## Added 230302
+- CHVD
+
 ## Removed 230226
 - Bullet hits
 

@@ -1,4 +1,19 @@
 # CGQC_addons
+
+## Added 230319
+- AWR
+- ACSTG AI Cannot See Through Grass
+- Prone launcher
+- No more aircraft bouncing
+- Better convoy
+- Exocet Immersive Reloads
+
+## Updated 230319
+- Zeus Enhanced
+- Zeus Enhanced - Ace3 compat
+- Zeus Additions
+
+
 ## Removed 230302
 - Removed AWR
 ## Added 230302

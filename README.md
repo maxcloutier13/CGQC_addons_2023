@@ -1,4 +1,10 @@
 # CGQC_addons
+## Added 230319
+- Basic map sharing RCO
+- Kock people Unconscious
+- Restrict markers
+- GSRI VIP Identification and Protection
+- Hate's elecronic warfare
 
 ## Added 230319
 - AWR

@@ -1,4 +1,4 @@
-name: Update Release Draft
+name: Release Drafter
 
 on:
   push:
@@ -9,28 +9,31 @@ jobs:
   update_release_draft:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-
-    # Install necessary actions
-    - name: Install actions
-      run: |
-        git clone https://github.com/peter-evans/add-pull-request-comment.git
-        git clone https://github.com/release-drafter/release-drafter.git
-
-    # Update release draft
-    - name: Update release draft
-      uses: release-drafter/release-drafter@v5
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GITHUB_REF: ${{ github.ref }}
-        DRAFT_VERSION: ${{ github.ref_name }}
-      with:
-        config-name: .github/release-drafter.yml
-
-    # Add comment to pull request
-    - name: Add comment to pull request
-      uses: peter-evans/add-pull-request-comment@v1
-      with:
-        message: |
-          Release draft has been updated.
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v2
+      - name: Get previous release tag
+        run: |
+          git fetch --tags
+          echo "::set-output name=prev_tag::$(git describe --tags $(git rev-list --tags --max-count=1))"
+        id: prev_tag
+      - name: Get current release notes
+        run: |
+          echo "::set-output name=release_notes::$(git log --pretty=format:'- %s' --no-merges ${prev_tag.outputs.prev_tag}..HEAD)"
+        id: release_notes
+      - name: Update Release Notes
+        uses: release-drafter/release-drafter@v7
+        with:
+          config-name: release-drafter-config.yml
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Add Release Notes to Pull Request
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const context = github.context;
+            const prNumber = context.payload.pull_request.number;
+            const notes = ${{ toJSON(steps.release_notes.outputs.release_notes) }};
+            github.issues.createComment({
+              ...context.repo,
+              issue_number: prNumber,
+              body: `Release Notes:\n${notes}`
+            });

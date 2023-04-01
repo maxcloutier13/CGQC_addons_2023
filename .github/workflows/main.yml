@@ -1,4 +1,4 @@
-name: Update Release Draft
+name: Update Release Draft on Commit to Main
 
 on:
   push:
@@ -6,35 +6,38 @@ on:
       - main
 
 jobs:
-  update_release_draft:
+  update-release-draft:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-      # (Optional) Create or update a release draft, if none exists yet
-      - name: Create Release Draft
-        uses: peter-evans/create-pull-request@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Create Release Draft"
-          title: "Release Draft"
-          body: "This is a release draft."
-          labels: "release draft"
-          branch: "release-draft"
+          node-version: '14'
 
-      # Add commit titles to the release draft body
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate Release Notes
+        run: npx standard-version
+
+      - name: Get Latest Release Tag
+        id: latest_tag
+        run: echo ::set-output name=tag::$(git describe --abbrev=0 --tags)
+
       - name: Update Release Draft
-        id: update_release_draft
-        uses: peter-evans/add-pull-request-comment@v1
+        uses: release-drafter/release-drafter@v5
         with:
-          message: |
-            New commits since last release:
-            ${{ steps.commit_titles.outputs.commit_titles }}
+          config-name: .github/release-drafter.yml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LATEST_RELEASE_TAG: ${{ steps.latest_tag.outputs.tag }}
 
-      # Get a list of commit titles since the last release
-      - name: Get Commit Titles
-        id: commit_titles
-        run: |
-          echo "::set-output name=commit_titles::$(git log --pretty=format:'%s' $(git describe --tags --abbrev=0 HEAD^)..HEAD)"
+      - name: Add PR comment
+        uses: peter-evans/add-pull-request-comment@v1.1.1
+        with:
+          message: 'Release draft updated with new commit. :tada:'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,40 @@
+name: Update Release Draft
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update_release_draft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      # (Optional) Create or update a release draft, if none exists yet
+      - name: Create Release Draft
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Create Release Draft"
+          title: "Release Draft"
+          body: "This is a release draft."
+          labels: "release draft"
+          branch: "release-draft"
+
+      # Add commit titles to the release draft body
+      - name: Update Release Draft
+        id: update_release_draft
+        uses: peter-evans/add-pull-request-comment@v1
+        with:
+          message: |
+            New commits since last release:
+            ${{ steps.commit_titles.outputs.commit_titles }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Get a list of commit titles since the last release
+      - name: Get Commit Titles
+        id: commit_titles
+        run: |
+          echo "::set-output name=commit_titles::$(git log --pretty=format:'%s' $(git describe --tags --abbrev=0 HEAD^)..HEAD)"

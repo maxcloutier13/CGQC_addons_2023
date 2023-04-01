@@ -1,4 +1,4 @@
-name: Release Drafter
+name: Update Release Draft
 
 on:
   push:
@@ -11,15 +11,14 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        with:
-          ref: main
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14.x'
-      - name: Install dependencies
-        run: npm install
+
       - name: Update release draft
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx release-drafter
+        run: |
+          last_release=$(git describe --tags --abbrev=0)
+          release_name=$(git log --format="%s" $last_release.. | tr '\n' ';')
+          curl \
+            -H "Accept: application/vnd.github.v3+json" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -d '{"name":"'"$last_release"'", "tag_name":"'"$last_release"'", "body":"'"$release_name"'"}' \
+            -X PATCH \
+            "https://api.github.com/repos/${{ github.repository }}/releases/tags/$last_release"

@@ -1,4 +1,4 @@
-name: Update Release Draft on Commit to Main
+name: Update Release Draft
 
 on:
   push:
@@ -6,38 +6,31 @@ on:
       - main
 
 jobs:
-  update-release-draft:
+  update_release_draft:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+    - uses: actions/checkout@v2
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14'
+    # Install necessary actions
+    - name: Install actions
+      run: |
+        git clone https://github.com/peter-evans/add-pull-request-comment.git
+        git clone https://github.com/release-drafter/release-drafter.git
 
-      - name: Install dependencies
-        run: npm install
+    # Update release draft
+    - name: Update release draft
+      uses: release-drafter/release-drafter@v5
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_REF: ${{ github.ref }}
+        DRAFT_VERSION: ${{ github.ref_name }}
+      with:
+        config-name: .github/release-drafter.yml
 
-      - name: Generate Release Notes
-        run: npx standard-version
-
-      - name: Get Latest Release Tag
-        id: latest_tag
-        run: echo ::set-output name=tag::$(git describe --abbrev=0 --tags)
-
-      - name: Update Release Draft
-        uses: release-drafter/release-drafter@v5
-        with:
-          config-name: .github/release-drafter.yml
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          LATEST_RELEASE_TAG: ${{ steps.latest_tag.outputs.tag }}
-
-      - name: Add PR comment
-        uses: peter-evans/add-pull-request-comment@v1.1.1
-        with:
-          message: 'Release draft updated with new commit. :tada:'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    # Add comment to pull request
+    - name: Add comment to pull request
+      uses: peter-evans/add-pull-request-comment@v1
+      with:
+        message: |
+          Release draft has been updated.
+        repo-token: ${{ secrets.GITHUB_TOKEN }}

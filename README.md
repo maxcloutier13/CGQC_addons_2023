@@ -1,4 +1,11 @@
 # CGQC_addons
+
+## Added 230401
+- WMO Walking moving objects 
+
+## Updated 230401
+- ACSTG AI Cannot see trough grass
+
 ## Added 230319
 - Basic map sharing RCO
 - Kock people Unconscious

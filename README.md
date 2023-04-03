@@ -1,5 +1,11 @@
 # CGQC_addons
 
+## Moved 230402
+- Maptools
+- immersion cigs
+- Grad pace beads
+
+
 ## Added 230401
 - WMO Walking moving objects 
 

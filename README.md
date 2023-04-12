@@ -1,5 +1,8 @@
 # CGQC_addons
 
+## Added 230412
+- C4Boobytrap modified
+
 ## Moved 230402
 - Maptools
 - immersion cigs

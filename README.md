@@ -1,4 +1,8 @@
 # CGQC_addons
+## Updated 230423
+- LAMBS Danger
+- Zeus Additions
+
 
 ## Added 230412
 - C4Boobytrap modified

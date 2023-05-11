@@ -1,5 +1,84 @@
 # CGQC_addons
 
+## Cleanup 230511
+- Removing all "basics" mods to Addon-Basics
+- Doc will stay here
+- 
+## Moved to Basics and updated 230511
+- Ace3Painkillers
+- AceArmorAdjuster
+- Achilles
+- AlternativeRunning
+- Spyder Addons
+- AR_AdvancedRappelling
+- AUR_AdvancedUrbanRappelling
+- Armbands
+- Enhanced movement
+- BG21_slaughter_assets
+- BRIDGE_punch
+- BW_WalkableMovingObjects
+- c4booby
+- CF Better AI
+- CHVD
+- CinematicFlares
+- DIS_enhanced_GPS
+- DIS_enhanced_Map
+- Diwako DUI radar
+- Drongo's simple factions
+- Dzn Rifle tripod
+- Enhamced movement reworked
+- Exocet Immersive Reload
+- O&T Expansion Eden
+- FSG MEdicBag
+- Deformer
+- WBK Footsteps
+- Grad Civilians
+- GSRI VIP Id and protection
+- Hate's electronic warfare
+- AI Cannot see trough grass
+- Horrormod
+- Advanced craters
+- Kimi RHS
+- KAT Notebook
+- Environment ducking
+- Lambs Danger
+- Laser designator simple grid
+- Limited gun movement
+- MIRA Vehicle medical
+- Better convoy
+- No more aircraft bouncing
+- Arsenal Icons
+- Laddertweaks
+- Prone launcher
+- Ragdoll physics plus
+- Animated recoil coefficient
+- Basic map sharing
+- Remove stamina
+- Ride where you look
+- RR Immersive maps + fixes
+- Seb's briefing table
+- Sig MOUT
+- Simple suppress
+- Advanced slingloading
+- Smoke reworked
+- Swim faster
+- Simplex Support Services
+- 3Den disable mission preview enter
+- TSP Animate
+- TSP Breach
+- Turret Enhanced
+- Uriki's mission items
+- Vehicle unflipping
+- WBK Headlamps
+- Weather plus
+- White_phosphor
+- Zeus keybinds
+- Zeus Comps
+- Zeus Addions
+- Zen Enhanced
+- Zen Enhanced Ace compat
+- 
+
 ## Added 230505
 - Breach
 

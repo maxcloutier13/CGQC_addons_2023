@@ -1,4 +1,7 @@
 # CGQC_addons
+## Ajout Addons 230512
+- CE Movement
+- TV controlled missiles
 
 ## Cleanup 230511
 - Removing all "basics" mods to Addon-Basics

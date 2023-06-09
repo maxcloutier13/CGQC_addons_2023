@@ -1,4 +1,8 @@
 # CGQC_addons
+## Update Addons 2306082
+- Grad Sling Helmet
+- Grad Captive Walking 
+
 ## Ajout Addons 230512
 - CE Movement
 - TV controlled missiles

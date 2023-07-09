@@ -2,6 +2,7 @@
 
 ## Update Addons 230709
 - Horror mod
+- Animated recoil animation changer
 
 ## Ajout Addons 230709
 - GGE Captive animation

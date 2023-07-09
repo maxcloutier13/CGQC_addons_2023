@@ -10,6 +10,7 @@
 - GGE Canting
 - Foxholes
 - Defoliating munitions
+- ACE Extended Arsenal (Vanilla + RHS)
 
 ## Update Addons 2306082
 - Grad Sling Helmet

@@ -8,6 +8,8 @@
 - GGE Captive animation
 - GGE NVG animation
 - GGE Canting
+- Foxholes
+- Defoliating munitions
 
 ## Update Addons 2306082
 - Grad Sling Helmet

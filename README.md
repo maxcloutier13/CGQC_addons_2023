@@ -1,4 +1,13 @@
 # CGQC_addons
+
+## Update Addons 230709
+- Horror mod
+
+## Ajout Addons 230709
+- GGE Captive animation
+- GGE NVG animation
+- GGE Canting
+
 ## Update Addons 2306082
 - Grad Sling Helmet
 - Grad Captive Walking 

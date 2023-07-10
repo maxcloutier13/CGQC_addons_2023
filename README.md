@@ -11,6 +11,7 @@
 - Foxholes
 - Defoliating munitions
 - ACE Extended Arsenal (Vanilla + RHS)
+- Digi Chemical Warfare
 
 ## Update Addons 2306082
 - Grad Sling Helmet

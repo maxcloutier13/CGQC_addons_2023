@@ -1,5 +1,9 @@
 # CGQC_addons
 
+## Ajout Addons 230711
+- GGE Weapon Swap
+- Funny's (cut) animations
+
 ## Update Addons 230709
 - Horror mod
 - Animated recoil animation changer

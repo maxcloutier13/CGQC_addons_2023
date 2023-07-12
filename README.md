@@ -1,7 +1,6 @@
 # CGQC_addons
 
 ## Ajout Addons 230711
-- GGE Weapon Swap
 - Funny's (cut) animations
 
 ## Update Addons 230709
@@ -11,7 +10,6 @@
 ## Ajout Addons 230709
 - GGE Captive animation
 - GGE NVG animation
-- GGE Canting
 - Foxholes
 - Defoliating munitions
 - ACE Extended Arsenal (Vanilla + RHS)

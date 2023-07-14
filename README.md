@@ -1,4 +1,9 @@
 # CGQC_addons
+## Ajout Addons 230714
+- A3TI
+
+## Update Addons 230714
+- Webknight's footsteps
 
 ## Ajout Addons 230711
 - Funny's (cut) animations

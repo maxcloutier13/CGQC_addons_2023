@@ -2,6 +2,8 @@
 
 ## Ajout Addons 230716
 - Weapon Slinging
+- Drongo's ADS
+- Stabilized turret
 
 ## Removed Addons 230716
 - Webknight's dual primary

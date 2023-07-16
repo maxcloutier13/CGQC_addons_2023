@@ -1,5 +1,11 @@
 # CGQC_addons
 
+## Ajout Addons 230716
+- Weapon Slinging
+
+## Removed Addons 230716
+- Webknight's dual primary
+
 ## Ajout Addons 230715
 - 40mm no bounce
 

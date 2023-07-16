@@ -1,4 +1,8 @@
 # CGQC_addons
+
+## Ajout Addons 230715
+- 40mm no bounce
+
 ## Ajout Addons 230714
 - A3TI
 

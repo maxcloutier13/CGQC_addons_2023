@@ -1,5 +1,8 @@
 # CGQC_addons
 
+## Update Addons 230725
+- Alternative running
+
 ## Ajout Addons 230716
 - Weapon Slinging
 - Drongo's ADS

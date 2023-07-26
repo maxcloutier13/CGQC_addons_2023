@@ -1,5 +1,12 @@
 # CGQC_addons
 
+## Moved to 2023 230726
+- Drongo's ADS
+- A3TI
+
+## Removed Addons 230726
+- Weapons slinging
+  
 ## Update Addons 230725
 - Alternative running
 

@@ -1,5 +1,11 @@
 # CGQC_addons
 
+## Update Addons 230815
+- Animated recoil coefficient changer
+- Advanced Equipment
+- A3 Thermal Improvements
+- ACEAX Core + RHS
+
 ## Moved to 2023 230726
 - Drongo's ADS
 - A3TI

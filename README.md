@@ -1,5 +1,8 @@
 # CGQC_addons
 
+## Ajout Addons 230817
+- 575th assets
+
 ## Update Addons 230815
 - Animated recoil coefficient changer
 - Advanced Equipment

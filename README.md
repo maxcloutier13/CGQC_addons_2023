@@ -1,5 +1,8 @@
 # CGQC_addons
 
+## Ajout zeus 230829
+- Faster parameters loading in eden
+
 ## Ajout Addons 230817
 - 575th assets
 
